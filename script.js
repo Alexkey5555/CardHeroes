@@ -5,7 +5,8 @@ let arr = [];
 fetch('dbHeroes.json')
     .then(res => res.json())
     .then(data => {
-        data.forEach((elem, index) => {
+        data.forEach(elem => {
+
             let div = document.createElement('div');
             const noFilms = (e) => {
                 let mes
@@ -16,7 +17,7 @@ fetch('dbHeroes.json')
                     mes = e.movies
                     arr = arr.concat(elem.movies)
                 }
-                return mesq
+                return mes
             }
             div.id = 'cards'
             div.innerHTML = `
