@@ -16,7 +16,7 @@ fetch('dbHeroes.json')
                     mes = e.movies
                     arr = arr.concat(elem.movies)
                 }
-                return mes
+                return mesq
             }
             div.id = 'cards'
             div.innerHTML = `
