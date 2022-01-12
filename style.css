@@ -1,0 +1,32 @@
+.card {
+    border: 1px solid black;
+    width: 200px;
+    height: 420px;
+    background-color: #F3F3D3;
+    box-shadow: inset 0px 0px 0px 10px white;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+}
+.card ul {
+    padding: 5px;
+    margin-top: 0px;
+}
+.card ul li {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+    font-size: 14px;
+}
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 0;
+   
+   -webkit-box-shadow: 0px 0px 17px 1px rgba(66, 68, 90, 1);
+   -moz-box-shadow: 0px 0px 17px 1px rgba(66, 68, 90, 1);
+   box-shadow: 0px 0px 17px 1px rgba(66, 68, 90, 1);
+}
